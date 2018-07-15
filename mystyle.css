@@ -1,0 +1,15 @@
+h1 {color:red; text-align:center; font-size: 40px; text-transform: uppercase;}
+p {text-align: center;}
+img {border-radius: 8px; max-height: 60%; max-width: 60%;display: block;
+	margin-left: auto;
+	margin-right: auto;}
+body {font-family: "Arial"; color: rgb(20,0,180); background-color: white}
+a:hover {background-color: yellow;}
+div {width: 100px; height: 100px; background: MediumSeaGreen; position: relative}
+div {
+	0%{background: MediumSeaGreen; left: 0px; top: 0px;}
+	25%{background: yellow; left: 200px; top: 0px;}
+	50%{background: violet; left: 200px; top: 200px;}
+	75%{background: red; left: 0px; top: 200px;}
+	100%{background: MediumSeaGreen; left: 0px; top: 0px;}
+}
